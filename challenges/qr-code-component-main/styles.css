@@ -1,6 +1,8 @@
 body {
+    margin-top: 100px;
     background-color: hsl(212, 45%, 89%);
     text-align: center;
+    align-items: center;
 }
 
 .attribution {
@@ -26,18 +28,19 @@ img {
     /* position: relative;
     top: 5px;
     left: 50px; */
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
     border-radius: 5%;
     max-width: 100%;
-    margin-top: 6%;
+    margin-top: 20px;
 }
 
 
 /* || TEXT */
 
 p {
-    margin: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
 }
 
 #thick {
@@ -49,6 +52,7 @@ p {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    opacity: 0.7;
 }
 
 
