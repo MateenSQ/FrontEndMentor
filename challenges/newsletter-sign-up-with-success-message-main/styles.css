@@ -2,21 +2,38 @@
     background-color: hsl(234, 29%, 20%);
 } */
 
-button {}
+.text {
+    display: inline-block;
+}
 
-.checkTicks {
-    display: inline;
+/* || FIRST MAIN DIV */
+.signUp {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 5%;
+    /* display: flex; */
+    padding: 50px;
 }
 
 .li {
     display: inline-block;
 }
 
-.signUp {
-    background-color: white;
-    border-radius: 5%;
+#bigText {
     display: inline-block;
-    padding: 50px;
+    flex: 1;
+}
+
+
+/* || SVGs */
+.checkTicks {
+    display: inline;
+}
+
+#bigImage {
+    display: inline-block;
+    flex: 1;
 }
 
 /*  Set by Frontend Mentor */
