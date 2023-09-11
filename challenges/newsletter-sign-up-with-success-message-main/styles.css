@@ -2,6 +2,8 @@
     background-color: hsl(234, 29%, 20%);
 } */
 
+button {}
+
 .checkTicks {
     display: inline;
 }
