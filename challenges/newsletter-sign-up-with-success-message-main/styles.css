@@ -1,3 +1,20 @@
+/*  ||  PAGE LAYOUT */
+.signUp {
+    display: flex;
+}
+
+.bigImage {
+    flex: 1;
+    order: 2;
+}
+
+.textSection {
+    flex: 1;
+    order: 1;
+}
+
+/*  ||  TEXT SIDE   */
+
 /*  Set by Frontend Mentor */
 .attribution {
     font-size: 11px;
