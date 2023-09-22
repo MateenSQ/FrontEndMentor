@@ -1,6 +1,8 @@
 /*  ||  PAGE LAYOUT */
+
 .signUp {
     display: flex;
+    width: 700px;
 }
 
 .bigImage {
@@ -11,9 +13,17 @@
 .textSection {
     flex: 1;
     order: 1;
+    width: 500px;
 }
 
 /*  ||  TEXT SIDE   */
+
+h1,
+p {
+    display: inline-block;
+}
+
+h1 {}
 
 /*  Set by Frontend Mentor */
 .attribution {
